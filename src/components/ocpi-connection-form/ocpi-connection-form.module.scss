@@ -1,0 +1,45 @@
+.root {
+  align-self: stretch;
+  display: block;
+  flex-direction: row;
+  overflow: visible;
+  flex-basis: 1px;
+  text-align: center;
+}
+.ocpi-connection-form-style {
+  display: grid;
+  overflow: auto;
+  align-self: stretch;
+  text-align: start;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.78);
+  font-variant: full-width;
+  font-style: normal;
+  flex-basis: 100px;
+  border-radius: 10px;
+  grid-auto-flow: row;
+}
+.ocpi-form-input-field {
+  margin: 3px;
+  padding: 3px;
+  box-shadow: 0.71px 0.71px 2px black;
+  height: 20px;
+  align-self: stretch;
+}
+.ocpi-text-details {
+  overflow: auto;
+  align-self: center;
+  margin: 3px;
+  padding: 3px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.ocpi-button {
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #4f53bd;
+  color: #ffffff;
+  text-align: center;
+}
